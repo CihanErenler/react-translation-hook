@@ -6,7 +6,8 @@
   "main": "dist/index.esm.js",
   "module": "dist/index.esm.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "build:ts": "tcs index.ts"
   },
   "keywords": [
     "localization",
