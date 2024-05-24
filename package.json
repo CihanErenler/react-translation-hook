@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A React hook for managing translations and internationalization, supporting dynamic language switching and easy integration.",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.esm.js",
+  "module": "dist/index.esm.js",
   "scripts": {
     "build": "rollup -c"
   },
@@ -19,6 +20,9 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.24.5",
